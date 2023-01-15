@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-container form {
+    display: flex;
+}
+
+.search-container input {
+    padding: 12px 20px;
+    margin-right: 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-container button {
+    padding: 12px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.faq-section {
+    margin-bottom: 40px;
+}
+
+.faq-section h2 {
+    margin-bottom: 20px;
+}
+
+.faq-question {
+    margin-bottom: 20px;
+}
+
+.faq-question p {
+    margin-bottom: 5px;
+}
+
+.faq-answer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    display: none;
+}
+
+
+.submit-question {
+    margin-top: 40px;
+}
+
+.submit-question form {
+    margin-top: 20px;
+}
+
+.submit-question label {
+    display: block;
+    margin-top: 20px;
+}
+
+.submit-question input[type="submit"] {
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    cursor: pointer;
+}
